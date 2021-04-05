@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'News Portal',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.yellow[50],
+        accentColor: Colors.cyan[600],
       ),
       home: NewsFeedPage(),
     );
